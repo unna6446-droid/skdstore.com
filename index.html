@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming/Social Media Product Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="navbar-container">
+      <!-- Logo -->
+      <div class="Logo">
+        <a href="#">SKD STORE</a>
+        
+      </div>
+      
+      <!-- Navigation Links -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <!-- CTA Button -->
+      <div class="cta">
+        <a href="#" class="cta-button">Order now</a>
+      </div>
+      
+      <!-- Mobile Menu Icon (Hamburger) -->
+      <div class="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Gaming World</h1>
+            <p> SKD NUMBER ONE STORE </p>
+            <a href="#explore" class="btn">Explore Now</a>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <div class="icon">&#9733;</div>
+                <h3>High Performance</h3>
+                <p>Experience lightning-fast speeds and optimal performance with every use.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">&#x1F4F1;</div>
+                <h3>Seamless Connectivity</h3>
+                <p>Stay connected effortlessly across all your devices without interruptions.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">&#x1F50C;</div>
+                <h3>Long Battery Life</h3>
+                <p>Work, play, and stream longer with our industry-leading battery technology.</p>
+            </div>
+        </div>
+    </section>
+
+     <section class="menu-preview">
+        <div class="container">
+            <div class="menu-item">
+                <img src="images/download.jpg" alt="Dish 1">
+                <div class="item-info">
+                  <button class="btn">Order Now</button>
+                    <h3>FACEBOOK 1K Likes</h3>
+                    <p>Facebook 1k likes Fast Delivery video link Required</p>
+                    <span>250PKR</span>
+                   <img src="images/download (3).jpg" alt="Dish 2">
+                    <button class="btn">Order Now</button>
+                    <P>PROXY SERVER FOR ANDRIOD MOBILE</P>
+                    <span>200PKR</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/tiktok.png" alt="Dish 2">
+
+                <div class="item-info">
+                  <button class="btn">Order Now</button>
+                    <h3> TIKTOK 1k Likes </h3>
+                    <p>tiktok 1K LIKES Fast Delivery video link Required</p>
+                    <span>80PKR</span>
+                    <img src="images/download (2).jpg" alt="Dish 2">
+
+<button class="btn">Order Now</button>
+<P>CAPCUT PRO LIVETIME GREANTY</P>
+<span>200PKR</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/download__1_-removebg-preview.png" alt="Dish 3">
+                <div class="item-info">
+                  <button class="btn">Order Now</button>
+                    <h3>13 Diamonds</h3>
+                    <p>Garena Free Fire 13 Diamonds Fast Delivery Player ID Required</p>
+                    <span>45PKR</span>
+                    <img src="images/uk.png" alt="Dish 1">
+                    <button class="btn">Order Now</button>
+                    <P>FRESH UK OR USA ACCOUNT </P>
+                    <SPAN>300PKR</SPAN>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+                    
+              
+
+    <script>
+        // Countdown Timer Logic
+        function startTimer(id, hours, minutes, seconds) {
+            let timer = document.getElementById(id);
+            let totalSeconds = hours * 3600 + minutes * 60 + seconds;
+
+            setInterval(function() {
+                let h = Math.floor(totalSeconds / 3600);
+                let m = Math.floor((totalSeconds % 3600) / 60);
+                let s = totalSeconds % 60;
+
+                timer.innerText = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+
+                if (totalSeconds > 0) {
+                    totalSeconds--;
+                }
+            }, 1000);
+        }
+
+        // Initialize timers for each offer
+        startTimer("timer1", 0, 30, 0);
+        startTimer("timer2", 1, 0, 0);
+        startTimer("timer3", 2, 0, 0);
+    </script>
+
+    <section class="location-delivery">
+        <div class="container">
+            <div class="location-info">
+                <h2>my Location</h2>
+                <p>SKARDU </p>
+                <div class="">
+                    <img src="" alt="Location Map">
+                </div>
+            </div>
+            <div class="delivery-info">
+                <h2>Delivery Options</h2>
+                <div class="delivery-options">
+                    <div class="option">
+                        <h3>Standard Delivery</h3>
+                        <p>Get your PRODUCT delivered in 30-45 minutes. Free delivery .</p>
+                    </div>
+                    <div class="option">
+                        <h3>Express Delivery</h3>
+                        <p>Need it fast? Get your PRODUCT in 15-20 minutes for a small fee 20RS.</p>
+                    </div>
+                    <div class="option">
+                        <h3>Note </h3>
+                        <p>jo cheeze be buy karo ga to first pay hoga or apna  pay kiya huwa screenshot whatsapp par bajdana ha ma check karka apka order laga duga </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+          <section class="customer-reviews">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="reviews">
+                <div class="review">
+                    <div class="review-header">
+                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <span class="name">hussain ali </span>
+                    </div>
+                    <p class="review-text">"itna fast delivery ha yar thanks "</p>
+                </div>
+                <div class="review">
+                    <div class="review-header">
+                        <div class="rating">&#9733;&#9733;&#9733;&#9733;</div>
+                        <span class="name">muhammad ahmed</span>
+                    </div>
+                    <p class="review-text">"thanks bhai yar mara likes agaya ha thanks "</p>
+                </div>
+                <div class="review">
+                    <div class="review-header">
+                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <span class="name">usman ali</span>
+                    </div>
+                    <p class="review-text">"bhai thanku uk account banana ka liya or wo be itna  kam price ma "</p>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Fill out the form below and we'll get in touch as soon as possible.</p>
+            <form action="#" method="POST" class="contact-form">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="gamer-section">
+        <div class="container">
+            <h2>Level Up Your Game</h2>
+            <p>Unleash the true power of gaming with the best equipment and accessories.</p>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=Gaming+PC" alt="Gaming PC">
+                    <h3>Gaming PC</h3>
+                    <p>Max performance with the latest hardware. Perfect for the most demanding games.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=Gaming+Headset" alt="Gaming Headset">
+                    <h3>Gaming Headset</h3>
+                    <p>Immersive sound and comfort for long gaming sessions.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300x200?text=Gaming+Chair" alt="Gaming Chair">
+                    <h3>Gaming Chair</h3>
+                    <p>Ergonomic design with adjustable features for ultimate comfort.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- Add your content here -->
+
+</body>
+</html>
+
+
